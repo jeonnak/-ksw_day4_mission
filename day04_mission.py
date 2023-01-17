@@ -1,20 +1,23 @@
-# 복습
-# 7.4
+# 7.8
 
-things = ["mozzarella", "cinderella", "salmonella"]
-print(things)
+surprise = ["Groucho", "Chico", "Harpo"]
+print(surprise)
 
-# 7.5
+# 7.9
 
-things[1] = things[1].title()
-print(things)
+surprise[-1] = surprise[-1].lower()
+print(surprise)
 
-# 7.6
+harpo_list = list(surprise[-1])
+print(harpo_list)
 
-things[0] = things[0].upper()
-print(things)
+harpo_list.reverse()
+print(harpo_list)
 
-# 7.7
+harpo_list[0] = harpo_list[0].title()
+print(harpo_list)
 
-things.pop()
-print(things)
+print(''.join(harpo_list))
+
+surprise[-1] = ''.join(harpo_list)
+print(surprise)
