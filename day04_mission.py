@@ -1,13 +1,20 @@
-# 7.1
+# 복습
+# 7.4
 
-y = int(input('당신의 출생연도를 입력하세요.: '))
-year_lists = [y, y+1, y+2, y+3, y+4, y+5]
-print(year_lists)
+things = ["mozzarella", "cinderella", "salmonella"]
+print(things)
 
-# 7.2
+# 7.5
 
-print(year_lists[3])
+things[1] = things[1].title()
+print(things)
 
-# 7.3
+# 7.6
 
-print(year_lists[-1])
+things[0] = things[0].upper()
+print(things)
+
+# 7.7
+
+things.pop()
+print(things)
